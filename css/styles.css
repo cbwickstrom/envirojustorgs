@@ -1,0 +1,186 @@
+/* https://colorhunt.co/palette/faf1e6fdfaf6e4efe7064420 */
+
+body {
+  /*body text affects all texts on webpage*/
+  font-family: 'Pontano Sans', sans-serif;
+  background: #E4EFE7;
+  color: #000000;
+  font-size: 1.25rem;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #064420;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.45rem;
+  font-weight: 700;
+  /*line-height: 2;*/
+  margin: 20px auto 0 auto;
+  /*you can use em, rem, or px for margin. personal preference*/
+  /*this can only look 0 when the body is 0*/
+}
+
+h2 {
+  color: #064420;
+  padding-bottom: 4px;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  /*normal weight makes font thinner */
+}
+
+h3 {
+  color: #18974F;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.625rem;
+  margin-bottom: 5px;
+}
+
+p {
+  line-height: 1.2;
+}
+
+a {
+  color: #064420;
+  margin: 10px 20px;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #18974F;
+  text-decoration: none;
+}
+
+.about-paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 1.525rem;
+  margin: auto;
+  /*adding this margin ("auto" for all 4 sides) to make this container CENTERED.*/
+}
+
+.list-container {
+  padding: 10px 0 50px 0;
+  background-color: #FDFAF6;
+}
+
+.list-tree {
+  border-radius: 50%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.list-hand {
+  border-radius: 50%;
+  width: 30%;
+  float: right;
+  margin-right: 30px;
+
+}
+
+.list-clean {
+  border-radius: 50%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.grass-local-list {
+  width: 50%;
+  /* margin: auto; <-- adding this margin centers this stuff! remove the margin, and it won't be centered anymore*/
+  margin: 10px auto 100px auto;
+  text-align: left;
+  text-indent: inherit;
+}
+
+.state-list {
+  width: 50%;
+  /* margin: auto; <-- adding this margin centers this stuff! remove the margin, and it won't be centered anymore*/
+  margin: 100px auto 100px auto;
+  text-align: right;
+  text-indent: inherit;
+}
+
+.nationwide-list {
+  width: 50%;
+  /* margin: auto; <-- adding this margin centers this stuff! remove the margin, and it won't be centered anymore*/
+  margin: 10px auto 100px auto;
+  text-align: left;
+  text-indent: inherit;
+}
+
+.top-container {
+  background-color: #E4EFE7;
+  margin-top: 10px;
+  padding: 30px 200px 50px 200px;
+  position: relative;
+  /*pushes things down. this is the parent element*/
+}
+
+.top-history {
+  padding-top: 50px;
+  width: 60%;
+}
+
+.contact-me {
+  padding: 50px 0 10px 0;
+}
+
+.bottom-email {
+  padding-top: 15px;
+  width: 15%;
+  height: auto;
+}
+
+#lists-container {
+  background: linear-gradient(0.95turn, #2B794D, #E4EFE7, #FDFAF6);
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+#list-description {
+  width: 35%;
+  margin: 10px auto 100px auto;
+  text-align: left;
+  text-indent: inherit;
+}
+
+#bg {
+  position: fixed;
+  right: 0;
+  top: 60px;
+  width: 33%;
+}
+
+.btn {
+  background-color: #FDFAF6;
+  background-image: -webkit-linear-gradient(top, #FDFAF6, #FDFAF6);
+  background-image: -moz-linear-gradient(top, #FDFAF6, #FDFAF6);
+  background-image: -ms-linear-gradient(top, #FDFAF6, #FDFAF6);
+  background-image: -o-linear-gradient(top, #FDFAF6, #FDFAF6);
+  background-image: linear-gradient(bottom, #FDFAF6, #FDFAF6);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Gothic A1', sans-serif;
+  color: #064420;
+  font-size: 1rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #064420;
+  background-image: -webkit-linear-gradient(top, #FAF1E6, #FAF1E6);
+  background-image: -moz-linear-gradient(top, #FAF1E6, #FAF1E6);
+  background-image: -ms-linear-gradient(top, #FAF1E6, #FAF1E6);
+  background-image: -o-linear-gradient(top, #064420, #FAF1E6);
+  background-image: linear-gradient(bottom, #064420, #FAF1E6);
+  border-bottom: 5px solid #064420;
+  transition: ease 0.3s;
+}
